@@ -7,5 +7,6 @@ require_once __DIR__ .  '/../../vendor/autoload.php';
 require_once __DIR__ .  '/../../vendor/yiisoft/yii2/Yii.php';
 require __DIR__ . '/../config/bootstrap.php';
 
-new yii\web\Application(require(__DIR__ . '/../config/test.php'));
+// $_SERVER['Yii2ConfigFile'] = dirname(__FILE__) . '/config/codeception-local.php';
+$_SERVER['Yii2ConfigFile'] = dirname(dirname(__FILE__) . '/config/codeception-local.php');
 
