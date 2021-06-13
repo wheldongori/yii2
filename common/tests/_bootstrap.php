@@ -8,5 +8,4 @@ require_once __DIR__ .  '/../../vendor/yiisoft/yii2/Yii.php';
 require __DIR__ . '/../config/bootstrap.php';
 
 // $_SERVER['Yii2ConfigFile'] = dirname(__FILE__) . '/config/codeception-local.php';
-$_SERVER['Yii2ConfigFile'] = dirname(dirname(__FILE__) . '/config/codeception-local.php');
 
