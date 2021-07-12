@@ -186,7 +186,8 @@ class VideoController extends Controller
     /**
      * Process user like or dislike
      * 
-     * @param string $id,$likeOrDislike
+     * @param int $id
+     * @param string $likeOrDislike
      */
     protected function handleLikeOrDislike($id, $likeOrDislike)
     {
