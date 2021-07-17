@@ -5,7 +5,7 @@ services:
   frontend:
     build: frontend
     ports:
-      - 24080:80
+      - 24080:8080
     volumes:
       # Re-use local composer cache via host-volume
       - ~/.composer-docker/cache:/root/.composer/cache:delegated
